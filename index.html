@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>Présent!!!</title>
+		<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,600" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./public/css/reset.css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./public/css/style.css">
+		<link rel="icon" href="images/ic-logo.png">
+	</head>
+
+	<body>
+		<div class="header">
+			    	<h1>Liste des matchs</h1>
+	  	</div>
+		<div class="main deck">
+			<div id="item-form" class="form">
+		      <input id="item-input" type="text" placeholder="Créer un nouveau match...">
+		      <div class="button">+</div>
+		    </div>
+
+			<h1>Matchs</h1>
+
+			<ul id="matchsList" class="list"></ul>
+
+			<h2>Voir tous les matchs...</h2>
+		</div>
+
+		<div class="matchHome deck" style="display: none">
+			<div class="matchHeader">
+				Match Header!!!!
+			</div>
+			<div class="matchPlayers">
+				<div class="player">Player #1</div>
+				<div class="player">Player #2</div>
+				<div class="player">Player #3</div>
+			</div>
+		</div>
+<!--
+					<form id="searchform" method="post" name="searchformname">
+						<input id="chkTowCap" type="checkbox" name="tpRecherche"/> Towing Capacity<br />
+
+					   	<div id="divFreeTxt" style="display:none">
+					        <label for="search_term">Filter on rows containing the following string:  </label>
+					        <input type="text" name="search_term" id="search_term" placeholder="Also filter on..."/>
+					   	</div>
+
+						<input type="submit" value="search" id="search_button" />
+					</form>
+	!-->
+	</body>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="./public/js/main.js"></script>
+</html>
